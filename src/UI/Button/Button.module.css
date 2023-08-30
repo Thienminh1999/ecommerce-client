@@ -1,0 +1,12 @@
+.btn {
+  width: 100%;
+  background-color: #494949;
+  padding-block: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn:disabled {
+  background-color: gray;
+  opacity: 0.6;
+}

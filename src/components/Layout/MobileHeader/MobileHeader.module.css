@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  position: relative;
+  height: 35px;
+
+  & button {
+    border: none;
+  }
+
+  & ul {
+    text-align: center;
+    background-color: #fff;
+    z-index: 10;
+    list-style-type: none;
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    display: none;
+    grid-template-columns: 1fr;
+
+    & li {
+      width: 100%;
+
+      & a {
+        text-decoration: none;
+        color: black;
+      }
+
+      &:hover {
+        background-color: #dbdbdb;
+      }
+    }
+  }
+}

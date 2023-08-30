@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid lightgray;
+
+  & button {
+    background-color: lightgray;
+    border: none;
+    padding: 0.2rem 0.5rem;
+    opacity: 0.7;
+  }
+}
